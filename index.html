@@ -19,57 +19,81 @@
       href="https://fonts.googleapis.com/css2?family=Google Sans:wght@400&display=swap"
     />
     <style>
-        /* Style for the signup form container */
-        #signupForm {
-          max-width: 400px;
-          margin: 0 auto;
-          padding: 20px;
-          background-color: #dcf3ee;
-          border: 1px solid #84aff9;
-          border-radius: 5px;
-        }
-      
-        /* Style for form headings */
+      /* Style for the signup form container */
+      #signupForm {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #dcf3ee;
+        border: 1px solid #84aff9;
+        border-radius: 5px;
+      }
+
+      /* Style for form headings */
+      h2 {
+        color: #4f4968;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      /* Style for form labels */
+      label {
+        color: #4f4968;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      /* Style for form input fields */
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      /* Style for the submit button */
+      input[type="submit"] {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      /* Style for the submit button on hover */
+      input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+
+      /* Media query for phone screens */
+      @media screen and (max-width: 768px) {
+        /* Add your phone-specific styles here */
+        /* For example, you can adjust the width of certain elements or change font sizes */
         h2 {
-            color: #4f4968;
-          font-size: 24px;
-          margin-bottom: 20px;
+          font-size: 20px;
         }
-      
-        /* Style for form labels */
+
         label {
-            color: #4f4968;
-          display: block;
-          font-weight: bold;
-          margin-bottom: 5px;
+          font-size: 16px;
         }
-      
-        /* Style for form input fields */
+
         input[type="text"],
         input[type="password"] {
           width: 100%;
-          padding: 10px;
-          margin-bottom: 10px;
-          border: 1px solid #ccc;
-          border-radius: 3px;
+          padding: 8px;
+          margin-bottom: 8px;
+          font-size: 14px;
         }
-      
-        /* Style for the submit button */
+
         input[type="submit"] {
-          background-color: #007BFF;
-          color: #fff;
-          border: none;
-          border-radius: 3px;
-          padding: 10px 20px;
-          cursor: pointer;
+          padding: 8px 16px;
         }
-      
-        /* Style for the submit button on hover */
-        input[type="submit"]:hover {
-          background-color: #0056b3;
-        }
-      </style>
-      
+      }
+    </style>
   </head>
   <body>
     <div class="lawyers">
